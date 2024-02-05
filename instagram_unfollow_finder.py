@@ -1,7 +1,7 @@
 import instaloader
 import getpass
 
-f = open("folloers.txt", "r")
+f = open("followrs.txt", "r")
 old_followers = []
 for line in f:
     old_followers.append(line)
@@ -12,7 +12,7 @@ username = input("Enter username: ")
 password = getpass.getpass("Enter password: ")
 L.login(username, password)
 print("hooora!!! successfully login" )
-profile = instaloader.Profile.from_username(L,context, "vjhcvgjsdh")
+profile = instaloader.Profile.from_username(L.context, "ali")
 
 new_followers = []
 for follower in profile.get_followers():
@@ -23,7 +23,7 @@ for old_follower in old_followers:
         print(old_follower)
 
 
-    f = open("folloers.txt", "w")
+    f = open("followrs.txt", "w")
     for follower in new_followers:
         f.write(follower + "\n")
 f.close()
