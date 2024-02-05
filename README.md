@@ -4,7 +4,7 @@
 you can create a qr-code
 Here we made a qr-code that displays the name and mobile number by scanning it
 you can scan this to have my name and number👇
-![Alt text](img\qr_code.jpg)
+![Alt text](img/qr_code.jpg)
 
 ---
 ## Factorial (part2)
@@ -13,7 +13,7 @@ We receive a number from the user and then check if it is a factorial number,pri
 ---
 ## Instagram New Followers Finder (part3)
 Using the for loop and arrays, I made an Instagram follower finder that can be easily connected to your account and you can give it any ID you want and receive new followers and the list of followers and those who unfollow in a text file. (I put the Unfollow finder code separately)
-![Alt text](img\instagram.jpg)
+![Alt text](img/instagram.jpg)
 
 ---
 
